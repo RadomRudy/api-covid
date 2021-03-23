@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <form method="POST" action="">
+        Rechercher un pays ou un continent :
+        <input
+          id="search-input"
+          type="text"
+          name="recherche"
+          placeholder="Laisser vide pour tout afficher"
+        />
+        <input id="search-btn" type="button" value="Search!" />
+      </form>
+      <div>
+        <input
+          type="radio"
+          id="countries"
+          name="searchType"
+          value="countries"
+          checked
+        />
+        <label for="countries">Pays</label>
+        <input
+          type="radio"
+          id="continent"
+          name="searchType"
+          value="continents"
+        />
+        <label for="continent">Continent</label>
+      </div>
+    </header>
+
+    <section id="titre"></section>
+    <section id="resultat"></section>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>

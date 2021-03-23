@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(184, 184, 184);
+}
+form {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(0, 81, 148);
+}
+#search-btn {
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: rgb(184, 184, 184);
+}
+label {
+  font-size: 20px;
+  color: rgb(0, 81, 148);
+}
+div {
+  text-align: center;
+}
+#countries {
+  font-size: 10px;
+}
+section {
+  text-align: center;
+}
+h1 {
+  color: rgb(0, 81, 148);
+  margin: 50px;
+}
+h2 {
+  text-align: center;
+  background-color: rgb(35, 152, 248);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-size: 25px;
+}
+p {
+  color: rgb(2, 76, 136);
+  font-size: 20px;
+}
